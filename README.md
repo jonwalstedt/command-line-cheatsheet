@@ -71,7 +71,7 @@
 | ------------------------------- | ------------ |
 | `&&`                            | Run next command if previous command succeeded
 | `;`                             | Run multiple commands
-| `|`                             | Pipe command to another command
+| `Pipe`                          | Pipe command to another command
 | `*`                             |
 | `say`                           | Say text out loud
 | `exit`                          |
