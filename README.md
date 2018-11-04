@@ -1,8 +1,8 @@
 # terminal-cheatsheet
 
 ## Shortcuts
-|  Shortcut                       | Descriptions |
-| ------------------------------- | ------------ |
+|  Shortcut                       | Description |
+| ------------------------------- | ----------- |
 | `CTRL A`                        | Move cursor to start of line
 | `CTRL B`                        | Move cursor back one character
 | `CTRL C`                        | Halts current command
@@ -24,14 +24,14 @@
 | `!!`                            | Repeat last command
 
 ## Basic
-|  Command                        | Descriptions |
-| ------------------------------- | ------------ |
+|  Command                        | Description |
+| ------------------------------- | ----------- |
 | `export`                        | Displays all environment variables or sets environment variable if used with value
 | `clear`                         | Clears the terminal window
 
 ## File commands
-|  Command                        | Descriptions |
-| ------------------------------- | ------------ |
+|  Command                        | Description |
+| ------------------------------- | ----------- |
 | `ls`                            | lists your files
 | `ls -l`                         | lists your files in 'long format', which contains the exact size of the file, who owns the file and who has the right to look at it, and when it was last modified
 | `ls -a`                         | lists all files, including hidden files
@@ -57,8 +57,8 @@
 
 
 ## Folder commands
-|  Command                        | Descriptions |
-| ------------------------------- | ------------ |
+|  Command                        | Description |
+| ------------------------------- | ----------- |
 | `mkdir <dirname>`               | makes a new directory
 | `cd`                            | changes to home
 | `cd <dirname>`                  | changes directory
@@ -67,8 +67,8 @@
 
 
 ## Misc
-|  Command  | Descriptions |
-| ------------------------------- | ------------ |
+|  Command                        | Description |
+| ------------------------------- | ----------- |
 | `&&`                            | Run next command if previous command succeeded
 | `;`                             | Run multiple commands
 | `Pipe`                          | Pipe command to another command
@@ -80,14 +80,14 @@
 
 
 ## Search / Grep
-|  Command                        | Descriptions |
-| ------------------------------- | ------------ |
+|  Command                        | Description |
+| ------------------------------- | ----------- |
 | `grep <pattern> <filenames>`    | looks for the string in the files
 | `grep -r <pattern> <dir>`       | search recursively for pattern in directory
 
 ## Curl
-|  Command                        | Descriptions |
-| ------------------------------- | ------------ |
+|  Command                        | Description |
+| ------------------------------- | ----------- |
 | `curl <url>`                    | retireves content
 | `curl -o <filename> <url>`      | retireves content and save it to given filename
 | `curl -O <filename> <url>`      | retireves content and save it with its original filename
@@ -95,8 +95,8 @@
 
 
 ## Input/Output Redirectors.
-|  Command                        | Descriptions |
-| ------------------------------- | ------------ |
+|  Command                        | Description |
+| ------------------------------- | ----------- |
 | `cmd1|cmd2`                     | pipe; takes standard output of cmd1 as standard input to cmd2
 | `> file`                        | directs standard output to file
 | `< file`                        | takes standard input from file
