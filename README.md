@@ -21,6 +21,12 @@
 `tail`
 `ln`
 `ln -s`
+`exit`
+`echo`
+`chown`
+`chmod`
+`sudo`
+`export`
 
 
 ## Find
