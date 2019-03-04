@@ -1,4 +1,4 @@
-# terminal-cheatsheet
+# Command-line cheatsheet
 
 ## Shortcuts
 |  Shortcut                       | Description |
@@ -36,6 +36,8 @@
 | `ctrl y`                        | Paste the last cut text.
 | `option y`                      | Loop through and paste previously cut text. Meta + y (use it after Ctrl + y)
 | `option +`                      | Loop through and paste the last argument of previous commands. Meta + .
+
+from (http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/)[http://teohm.com/blog/shortcuts-to-move-faster-in-bash-command-line/]
 
 ## Basic
 |  Command                        | Description |
