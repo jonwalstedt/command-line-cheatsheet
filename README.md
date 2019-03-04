@@ -3,25 +3,39 @@
 ## Shortcuts
 |  Shortcut                       | Description |
 | ------------------------------- | ----------- |
-| `CTRL A`                        | Move cursor to start of line
-| `CTRL B`                        | Move cursor back one character
-| `CTRL C`                        | Halts current command
-| `CTRL D`                        | Deletes on character forwards or logs out of session (like exit)
-| `CTRL E`                        | Move cursor to end of line
-| `CTRL F`                        | Move cursor forwards one character
-| `CTRL G`                        | Aborts the current command
-| `CTRL J`                        | Same as return
-| `CTRL K`                        | Delete right of cursor
-| `CTRL L`                        | Clear the terminal
-| `CTRL M`                        | Same as return
-| `CTRL N`                        | Next line in command history
-| `CTRL P`                        | Previous line in comman history
-| `CTRL R`                        | Reverse search of history
-| `CTRL S`                        | Search forwards in history
-| `CTRL W`                        | Delete word on the left of cursor
-| `CTRL Z`                        | Stops current command (resume with fg in foreground or bg in background)
-| `CTRL Y`                        | Pastes last killed item
+| `ctrl c`                        | Halts current command
+| `ctrl d`                        | Deletes on character forwards or logs out of session (like exit)
+| `ctrl g`                        | Aborts the current command
+| `ctrl j`                        | Same as return
+| `ctrl l`                        | Clear the terminal
+| `ctrl m`                        | Same as return
+| `ctrl n`                        | Next line in command history
+| `ctrl p`                        | Previous line in comman history
+| `ctrl r`                        | Reverse search of history
+| `ctrl s`                        | Search forwards in history
+| `ctrl z`                        | Stops current command (resume with fg in foreground or bg in background)
 | `!!`                            | Repeat last command
+
+## Movement
+|  Movement                       | Description |
+| ------------------------------- | ----------- |
+| `ctrl a`                        | Move cursor to start of line
+| `ctrl b`                        | Move cursor back one character
+| `ctrl e`                        | Move cursor to end of line
+| `ctrl f`                        | Move cursor forwards one character
+| `option b`                      | Move backwords one word
+| `option f`                      | Move forwards one word
+
+## Cut and paste (‘Kill and yank’ for old schoolers)
+|  Shortcut                       | Description |
+| ------------------------------- | ----------- |
+| `ctrl k`                        | Cut from cursor to the end of line.
+| `option d`                      | Cut from cursor to the end of word.
+| `option backspace`              | Cut from cursor to the start of word.
+| `ctrl w`                        | Cut from cursor to previous whitespace.
+| `ctrl y`                        | Paste the last cut text.
+| `option y`                      | Loop through and paste previously cut text. Meta + y (use it after Ctrl + y)
+| `option +`                      | Loop through and paste the last argument of previous commands. Meta + .
 
 ## Basic
 |  Command                        | Description |
