@@ -1,7 +1,7 @@
 # Command-line cheatsheet
 
 ## Shortcuts
-|  Shortcut                       | Description |
+|  Command                        | Description |
 | ------------------------------- | ----------- |
 | `ctrl c`                        | Halts current command
 | `ctrl d`                        | Deletes on character forwards or logs out of session (like exit)
@@ -17,7 +17,7 @@
 | `!!`                            | Repeat last command
 
 ## Movement
-|  Movement                       | Description |
+|  Command                        | Description |
 | ------------------------------- | ----------- |
 | `ctrl a`                        | Move cursor to start of line
 | `ctrl b`                        | Move cursor back one character
@@ -27,7 +27,7 @@
 | `option f`                      | Move forwards one word
 
 ## Cut and paste (‘Kill and yank’ for old schoolers)
-|  Shortcut                       | Description |
+|  Command                        | Description |
 | ------------------------------- | ----------- |
 | `ctrl k`                        | Cut from cursor to the end of line.
 | `option d`                      | Cut from cursor to the end of word.
